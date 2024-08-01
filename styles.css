@@ -1,0 +1,76 @@
+body{
+    background-color: #fff;
+}
+
+ul{
+    margin: 0;
+}
+a{
+    color: white;
+}
+.navbar-p{
+    background-color: rgb(228, 86, 39);
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    padding: 0 85px;
+    align-items:center;
+    color: white;
+  }
+  .nav-middle{
+   
+    align-items: center;
+  }
+  .navbar-left{
+    display: flex;
+  }
+  .all-cat{
+    display: flex;
+    align-items:center;
+    font-size: 20px;
+    padding: 5px 5px;
+    margin-right: 29px;
+  }
+
+  .nav-middle{
+    display: flex;
+    align-items:center;
+    padding: 5px 5px;
+  }
+
+  .nav-options{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 26px;
+    
+  }
+
+  .img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
+  }
+
+  .gift-voucher-title{
+    display: flex;
+    justify-content: center;
+    padding: 27px 0 18px 0;
+    font-weight: 700;
+  }
+
+@media (max-width: 768px) {
+
+
+}
+
+/* Styles for desktops and larger devices */
+@media (max-width: 1024px) {
+.img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+  }
+}
